@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: 'Varela Round', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+}
 
 * {
   box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
 }
 
 body {
-  background: #F4FEF8;
+  background: #F3F3F3;
   font-family: 'Lato', sans-serif;
   min-height: 100vh;
   margin: 0;
@@ -28,7 +32,7 @@ h3 {
 
 .btn {
   cursor: pointer;
-  background-color: #11AE68;
+  background-color: #A489EA;
   border: 0;
   border-radius: 4px;
   color: #fff;
@@ -57,7 +61,7 @@ select:focus {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -800px);
-  background-color: #1A2232;
+  background-color: #ECA8A7;
   color: #fff;
   padding: 20px;
   border-radius: 5px;
@@ -117,7 +121,7 @@ main {
 }
 
 .expression-box.active {
-  box-shadow: 0 0 10px 5px #11AE68;
+  box-shadow: 0 0 10px 5px #A489EA;
 }
 
 .expression-box img {
@@ -127,7 +131,7 @@ main {
 }
 
 .expression-box .info {
-  background-color: #11AE68;
+  background-color: #A489EA;
   color: #fff;
   font-size: 18px;
   letter-spacing: 1px;
