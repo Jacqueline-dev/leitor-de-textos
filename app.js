@@ -70,18 +70,22 @@ speechSynthesis.addEventListener('voiceschanged', () => {
   const  microsoftVoice =  voices.find(voice => 
     voice.name === 'Microsoft Maria Desktop - Portuguese(Brazil)')
 
-    if (googleVoice) {
-      utterance.voice = googleVoice
-
-    } else if (microsoftVoice ) {
-      utterance.voice = microsoftVoice 
-    }
-
+    
     
   voices.forEach(({name, lang}) => {
     const option = document.createElement('option')
 
     option.value = name
+
+    if (googleVoice && option.value === googleVoice.name) {
+      utterance.voice = googleVoice
+      option.selected = true
+
+    } else if (microsoftVoice ) {
+      utterance.voice = microsoftVoice 
+      option.selected = true
+    }
+  
     option.text = `${lang} | ${name}`
     selectElement.appendChild(option)
     
