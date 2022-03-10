@@ -7,7 +7,7 @@ o leitor de textos é uma aplicação em Javascript puro par auxiliar crianças 
 * HTML 
 * CSS
 * Javascript
-* API Google Voice
+* Web Speech API
 
 
 ## Conheça o projeto:
