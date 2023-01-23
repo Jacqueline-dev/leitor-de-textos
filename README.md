@@ -1,6 +1,6 @@
 # Sobre o projeto: Leitor de textos 
 
-o leitor de textos é uma aplicação em Javascript puro par auxiliar crianças no desenvolvimento da comunicação.
+o leitor de textos é uma aplicação em Javascript puro para auxiliar crianças no desenvolvimento da comunicação.
 
 ## Tecnologias usadas:
 
